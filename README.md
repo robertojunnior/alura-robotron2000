@@ -44,6 +44,9 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 Este projeto se chama "Robotron 2000".<br>
 Feito para aplicar funções no código existente, criando elementos para suas funcionalidades no UPGRADE de cada personagem Robô do jogo.
+<br>
+Este projeto foi desenvolvido pelo Pedro Marins, sem modelo responsivo. <br>
+Após finalizar o estudo de JavaScript, irei construir um modelo reaponsivo mobile. 
 
 <br>Para visualizar a versão atual do projeto é só<a href="https://robertojunnior.github.io/alura-robotron2000/"> "Clicar aqui".</a>🚀
 
