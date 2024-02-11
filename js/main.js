@@ -1,24 +1,12 @@
-const robotron = document.querySelector("#robotron");
+const subtrair = document.querySelector("#subtrair");
+const somar = document.querySelector("#somar");
+const braco = document.querySelector("#braco");
 
-// Declaração de função junto ao addEventlistener que tem dois parâmetros
-// robotron.addEventListener("click", function () {
-//   console.log("Cliquei no robô");
-// });
-
-// Declaração de função anônima junto ao add
-robotron.addEventListener("click", () => {
-  console.log("Cliquei no robô com Arrow Function");
+// criando evento de click addEventListener ( 2 parâmetros)
+subtrair.addEventListener("click", (evento) => {
+  braco.value = parseInt(braco.value) - 1;
 });
 
-//chamando a função no final
-// function dizOi() {
-//   console.log("Oi");
-//   console.log("A vavavava");
-// }
-// dizOi();
-
-// função com parâmetros
-function dizOi(nome) {
-  console.log(`olá ${nome}, bem vindo ao Robotron!`);
-}
-dizOi("Junior");
+somar.addEventListener("click", (evento) => {
+  braco.value = parseInt(braco.value) + 1;
+});
