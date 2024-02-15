@@ -87,6 +87,9 @@
     color: black;
   }
 
+.close {
+    display: none;
+}
 /* mostrar e esconder a lista */
   [data-lista="mostrar"] { 
     display: block; } 
