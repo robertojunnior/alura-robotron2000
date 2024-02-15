@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    min-width: 450px;
+    background-size: 80vh;
+    color: rgb(0, 0, 0);
+    background-image: url("https://www.alura.com.br/assets/img/alura2023/home/formations-sub.1687365821.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  button {
+    font-size: 24px;
+    font-family: "Futura Lt BT", sans-serif;
+    background-color: black;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+    border-radius: 5px 5px 0 0;
+    border: none;
+    transition: 500ms;
+    opacity: 0.8;
+    margin: 30px 0;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: gray;
+  }
+  
+  button:active {
+    color: black;
+    background-color: white;
+  }
+  
+  .lista {
+    display: none;
+    padding: 20px;
+    list-style-type: none;
+    border: 4mm ridge rgba(234, 122, 11, 0.992);
+    background-color: #054858;
+  }
+  
+  .alura-logo {
+    width: 150px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+  }
+  
+  [cor="laranja"] {
+    color: orange;
+  }
+  
+  [cor="vermelho"] {
+    color: red;
+  }
+  
+  [cor="roxa"] {
+    color: rgb(145, 36, 218);
+  }
+  
+  [cor="amarelo"] {
+    color: rgb(218, 218, 88);
+  }
+  
+  [cor="rosa"] {
+    color: pink;
+  }
+  
+  [cor="preto"] {
+    color: black;
+  }
+
+/* mostrar e esconder a lista */
+  [data-lista="mostrar"] { 
+    display: block; } 
+  
+
+  [data-lista="esconder"] { 
+    display: none; }
+
